@@ -1,0 +1,11 @@
+最尤推定量
+→最尤推定量は最もらしい推定量
+→尤度関数を最大にするような推定量を最尤推定量という。
+→ 最尤推定量は確率密度関数を微分して=0で求めることによって算出することができる。
+→計算を簡単にするために対数(log)をとって計算するといった方法もある。（基本的には対数をとって計算している。）
+→https://manabitimes.jp/math/1184
+→https://ai-trend.jp/basic-study/estimator/maximum-likelihood-estimation/
+
+デルタ法に関して
+→デルタ法はテイラー展開を用いることで、変換された確率変数の平均や分散を、元の確率変数の平均や分散で近似的に表す方法
+→https://www.youtube.com/watch?v=Vmac6QC0owg
