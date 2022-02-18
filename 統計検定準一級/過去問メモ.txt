@@ -9,3 +9,47 @@
 デルタ法に関して
 →デルタ法はテイラー展開を用いることで、変換された確率変数の平均や分散を、元の確率変数の平均や分散で近似的に表す方法
 →https://www.youtube.com/watch?v=Vmac6QC0owg
+
+パラメトリックモデル
+→データの分布がわかっているようなモデル
+→線形回帰が当てはまる
+
+ノンパラメトリックモデル
+→分布を想定していないもの
+→ランダムフォレスト・サポートベクターマシーンが当てはまる。
+
+
+・正規分布の表記法
+N(μ,σ^2)
+→https://www.stat.go.jp/teacher/glossary-sa-se.html#:~:text=%E3%81%A7%E8%A1%A8%E3%81%95%E3%82%8C%E3%82%8B%E7%A2%BA%E7%8E%87,%CE%BC%2C%CF%832)%E3%81%A7%E8%A1%A8%E3%81%99%E3%80%82
+
+・分散の性質
+X,Yが独立の場合
+V(X+Y) = V(X) + V(Y)
+X,Yが独立出ない場合
+V(X+Y) = V(X) + V(Y) + 2Cov(X,Y)
+定数倍の場合
+V(aX) = a^2V(X)
+→https://bellcurve.jp/statistics/course/6718.html
+
+・分散共分散行列
+→分散共分散行列の対角成分がすべて1になるものを相関行列という。
+→https://manabitimes.jp/math/1020
+
+・共分散の公式
+1. Cov(X,X)=Var(X)
+2. Cov(X,Y)=Cov(Y,X)
+3 Cov(X+Y, Z) Cov(X, Z)+Cov(Y,Z)
+3. Cov(X+Y,Z)=Cov(X,Z)+Cov(Y,Z)
+4. Cov(aX,Y)=aCov(X,Y)
+5. Cov(X,Y)=E(XY)−E(X)E(Y)
+→https://home.hiroshima-u.ac.jp/wakaki/lecture/probstatA12/OtherFormat/2012_6_12(4).pdf
+
+
+・2変量正規分布の条件付き確率の期待値と分散
+条件付き期待値：𝐸[𝑌|𝑋=𝑥]=𝜇𝑦+𝜌𝜎𝑦𝑥−𝜇𝑥𝜎𝑥
+条件付き分散：　𝑉[𝑌|𝑋=𝑥]=𝜎2𝑦(1−𝜌2)
+→https://math-note.com/conditional-probability-of-multivariate-normal-distribution/
+
+・逆行列求め方。
+→https://manabitimes.jp/math/1153

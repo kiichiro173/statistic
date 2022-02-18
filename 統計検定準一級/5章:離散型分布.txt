@@ -1,0 +1,4 @@
+離散一様分布
+→E[X] = (K+1) / 2
+→V[X] = (K^2 - 1) / 12
+→https://bellcurve.jp/statistics/course/8011.html
