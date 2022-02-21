@@ -53,3 +53,25 @@ V(aX) = a^2V(X)
 
 ・逆行列求め方。
 →https://manabitimes.jp/math/1153
+
+
+・最小値を求める際
+→微分してゼロ
+
+・推定量とは
+→標本から得た統計量をもとに、母集団のパラメータを推定するとき、標本の統計量のこと
+
+・不偏性とは
+→推定量の期待値が、真の母数の値となることです。これを満たす推定量を不偏推定量
+→平均的に過大、過小の評価がなくて、偏りがないということ
+→偏りとは、平均値でいうと、観測値から得た標本平均と、母集団の真の平均の間にある偶然ではない
+
+・尤度比検定
+→尤度比はカイ二乗分布に従うとされている。
+→パラメータの最もらしさ
+→尤度比は帰無仮説のもとでの最大尤度と、最尤推定量を使用した尤度との比
+→https://medibook.hatenablog.com/entry/2020/07/07/045622
+→https://www.youtube.com/watch?v=4o3qku3j7kc
+→https://www.youtube.com/watch?v=-C0JUkVrlHY （わかりやすい）
+→https://www.youtube.com/watch?v=O1v9qwXoxFA （わかりやすい）
+→https://starpentagon.net/analytics/8_2_1_likelihood_ratio_test/

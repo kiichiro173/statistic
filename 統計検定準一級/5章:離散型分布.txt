@@ -2,3 +2,27 @@
 →E[X] = (K+1) / 2
 →V[X] = (K^2 - 1) / 12
 →https://bellcurve.jp/statistics/course/8011.html
+
+ベルヌーイ分布
+ベルヌーイ試行：二種類の結果を取りうる試みがあったときに、このような試みのこと
+P(X=1)=p、P(X=0)=1−p
+→これらの分布をベルヌーイ分布という。
+→要はベルヌーイ試行を一度だけ試してみる。
+→https://blog.foresta.me/posts/stats_binomial_and_bernoulli_distribution/
+
+二項分布
+→二項分布はベルヌーイ試行をn回行って成功した回数の分布が二項分布になる。
+
+
+超幾何分布
+→ある袋からn個の玉を取り出す時のYの分布を超幾何分布という。
+→https://ai-trend.jp/basic-study/hypergeometric-distribution/hypergeometric-distribution-derivation/
+→超幾何分布は非復元抽出。復元無作為抽出であると、二項分布と同じになってしまう。
+
+ポアソン分布
+→ポアソン分布は「ある期間に平均λ回起こる現象が、ある期間にX回起きる確率の分布」
+→https://bellcurve.jp/statistics/course/6984.html
+
+幾何分布
+→確率変数が幾何分布に従う場合、成功確率がPの試行において、k回目で初めて成功する確率
+→https://bellcurve.jp/statistics/course/6988.html

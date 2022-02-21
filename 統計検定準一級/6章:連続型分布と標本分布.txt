@@ -1,0 +1,29 @@
+連続一様分布
+→https://bellcurve.jp/statistics/course/8013.html
+
+正規分布（ガウス分布ともいう。）
+→特に平均０分散１の正規分布のことを標本正規分布という、
+→https://bellcurve.jp/statistics/course/7797.html
+
+指数分布
+→機械が故障してから次に故障するまでの期間や、災害が起こってから次に起こるまでの期間のように、次に何かが起こるまでの期間が従う分布
+→https://bellcurve.jp/statistics/course/8009.html
+
+ガンマ分布
+→一定期間 λ の間に 1 回起きることが期待できる出来事が実際に起きるまでの時間の分布
+→https://www.headboost.jp/what-is-gamma-distribution-2/
+
+ベータ分布
+→https://www.headboost.jp/what-is-beta-distribution/
+
+カイ二乗分布
+→標準正規分布に従う変数の二乗和が従う分布
+→https://bellcurve.jp/statistics/course/9208.html
+
+t分布
+→標準正規分布N(0, 1)に従うZと自由度nのカイ二乗分布Wがあり、これらが互いに独立であるとき、次の式から算出されるtは自由度nのt分布に従う
+→https://bellcurve.jp/statistics/course/8968.html
+
+F分布
+→カイ二乗同士が互いに独立な時に従う分布
+→https://bellcurve.jp/statistics/course/9929.html#:~:text=F%E5%88%86%E5%B8%83%E3%81%AFt%E5%88%86%E5%B8%83,%E3%81%AE%E5%BD%A2%E3%81%8C%E6%B1%BA%E3%81%BE%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82&text=%E3%81%AF%E3%83%99%E3%83%BC%E3%82%BF%E5%88%86%E5%B8%83%E3%82%92%E8%A1%A8%E3%81%97,%E3%81%8C%E3%80%81%E8%A6%9A%E3%81%88%E3%82%8B%E5%BF%85%E8%A6%81%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82
