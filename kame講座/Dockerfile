@@ -6,8 +6,8 @@
 # このdockerfileを使用してデータ分析等を行う場合は以下の手順
 # docker build .
 # docker images イメージができているか確認
-# docker run -p ローカルのポート:8888 -v マウントしたいディレクトリ:dockerのマウント先 --name my-lab イメージID
-# docker run -p 1234:8888 -v /Users/kiichiro/Desktop/data/scikit_learn_practice/src:/work --name my-lab 0ffa1ee223d4
+# docker run --rm -p ローカルのポート:8888 -v マウントしたいディレクトリ:dockerのマウント先 --name my-lab イメージID
+# docker run --rm -p 1234:8888 -v /Users/kiichiro/Desktop/data/scikit_learn_practice/src:/work --name my-lab 0ffa1ee223d4
 # あくまでもファイルはホスト側にある（dockerfileにはないので注意が必要。）
 
 FROM ubuntu:latest
