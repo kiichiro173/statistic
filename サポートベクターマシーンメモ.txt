@@ -1,0 +1,8 @@
+カーネル法に関して
+→https://kenyu-life.com/2019/04/22/svm_kernel/    (こっちの方がわかりやすいかも)
+
+→https://www.ism.ac.jp/~fukumizu/ISM_lecture_2006/Lecture2006_kernel_basics.pdf
+
+はじぱたP124に関して
+→https://www.slideshare.net/moa108/8-28571831
+ここの47枚目
