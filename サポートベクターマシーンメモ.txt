@@ -1,8 +1,27 @@
+サポートベクターマシンの基本的な理解に関して
+→https://kenyu-life.com/2019/03/26/svm_detail/
+
+点と直線の距離に関して
+→http://www.geisya.or.jp/~mwm48961/koukou/kyori04.htm
+
+ラグランジュ関数に関して（双対問題に関して）
+→https://kenyu-life.com/2019/04/01/svm_lagrange/
+
+
 カーネル法に関して
-→https://kenyu-life.com/2019/04/22/svm_kernel/    (こっちの方がわかりやすいかも)
+https://kenyu-life.com/2019/04/01/svm_lagrange/https://kenyu-life.com/2019/04/22/svm_kernel/    (こっちの方がわかりやすいかも)
 
 →https://www.ism.ac.jp/~fukumizu/ISM_lecture_2006/Lecture2006_kernel_basics.pdf
 
 はじぱたP124に関して
 →https://www.slideshare.net/moa108/8-28571831
 ここの47枚目
+
+動径基底関数カーネル
+→https://ichi.pro/do-soko-kansu-rbf-ka-neru-tayori-ni-naru-ka-neru-190150318258570（わかりやすい雰囲気）
+→https://qiita.com/FukuharaYohei/items/a67a8ae381b54e4ee0ea#12-kernels
+Youtube
+→https://www.youtube.com/watch?v=MKNp4NzLqf4
+
+v-サポートベクトルマシン
+https://kenyu-life.com/2019/03/30/svm_senkeibunrihukanou/
