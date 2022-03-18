@@ -13,6 +13,9 @@ https://kenyu-life.com/2019/04/01/svm_lagrange/https://kenyu-life.com/2019/04/22
 
 →https://www.ism.ac.jp/~fukumizu/ISM_lecture_2006/Lecture2006_kernel_basics.pdf
 
+p123の二項定理に関して
+→https://hiraocafe.com/note/binomial-theorem.html
+
 はじぱたP124に関して
 →https://www.slideshare.net/moa108/8-28571831
 ここの47枚目
