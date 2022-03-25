@@ -27,6 +27,14 @@ Youtube
 →https://www.youtube.com/watch?v=MKNp4NzLqf4
 これがわかりやすいかも！
 https://ichi.pro/do-soko-kansu-rbf-ka-neru-oyobi-rbf-nettowa-ku-o-kantan-ni-setsumei-59039807747948
+ベクトルの計算に関して
+→http://web.econ.keio.ac.jp/staff/tose/cours/2018/emath/emath2018Lec07_0529V02.pdf
+
+・ガウスカーネルに関して
+→https://www.iwanttobeacat.com/entry/2019/09/19/211840#fn-258f5bfb
+
+・マクローリン展開に関して
+→https://atarimae.biz/archives/10258
 
 v-サポートベクトルマシン
 https://kenyu-life.com/2019/03/30/svm_senkeibunrihukanou/
