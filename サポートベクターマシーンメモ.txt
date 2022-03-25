@@ -25,6 +25,8 @@ p123の二項定理に関して
 →https://qiita.com/FukuharaYohei/items/a67a8ae381b54e4ee0ea#12-kernels
 Youtube
 →https://www.youtube.com/watch?v=MKNp4NzLqf4
+これがわかりやすいかも！
+https://ichi.pro/do-soko-kansu-rbf-ka-neru-oyobi-rbf-nettowa-ku-o-kantan-ni-setsumei-59039807747948
 
 v-サポートベクトルマシン
 https://kenyu-life.com/2019/03/30/svm_senkeibunrihukanou/
