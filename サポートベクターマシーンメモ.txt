@@ -32,9 +32,15 @@ https://ichi.pro/do-soko-kansu-rbf-ka-neru-oyobi-rbf-nettowa-ku-o-kantan-ni-sets
 
 ・ガウスカーネルに関して
 →https://www.iwanttobeacat.com/entry/2019/09/19/211840#fn-258f5bfb
+→https://nisshingeppo.com/ai/kernel-method/
 
 ・マクローリン展開に関して
 →https://atarimae.biz/archives/10258
 
+
+
 v-サポートベクトルマシン
 https://kenyu-life.com/2019/03/30/svm_senkeibunrihukanou/
+
+ocsvmに関して
+https://datachemeng.com/ocsvm/
