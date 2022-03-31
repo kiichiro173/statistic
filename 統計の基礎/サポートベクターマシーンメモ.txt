@@ -7,6 +7,10 @@
 ラグランジュ関数に関して（双対問題に関して）
 →https://kenyu-life.com/2019/04/01/svm_lagrange/
 
+・相補性に関して
+→https://qiita.com/io-sink/items/bb518f0fc1d94208dc5a
+
+
 
 カーネル法に関して
 https://kenyu-life.com/2019/04/01/svm_lagrange/https://kenyu-life.com/2019/04/22/svm_kernel/    (こっちの方がわかりやすいかも)
