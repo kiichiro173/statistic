@@ -10,6 +10,8 @@
 # docker run --rm -p 1234:8888 -v /Users/kiichiro/Desktop/data/scikit_learn_practice/src:/work --name my-lab 0ffa1ee223d4
 # あくまでもファイルはホスト側にある（dockerfileにはないので注意が必要。）
 
+docker run --rm -p 1234:8888 -v /Users/kiichiro/Desktop/data/python_prac:/work --name my-lab 9c4a139ba590 
+
 FROM ubuntu:latest
 RUN apt-get update && apt-get install -y \
     sudo \
