@@ -3,3 +3,48 @@ set()を使用する
 
 # リストを並び替える時
 nums.sort()
+
+# % を使用して問題を解く。
+% を使用する！
+
+
+# 幅優先探索
+# collections モジュールから deque クラスをインポートする
+from collections import deque
+# キューを宣言
+queue = deque()
+
+# データの読み込み
+R, C = map(int, input().split())
+start_y, start_x = map(int, input().split())
+goal_y, goal_x = map(int, input().split())
+graph = [[c for c in input()] for _ in range(R)]
+
+# 探索開始地点をキューに追加する
+queue.append([start_y, start_x])
+# 探索開始地点を探索済みに(開始地点を0にする。)
+graph[start_y - 1][start_x - 1]= 0
+
+# キューが空になるまで繰り返す
+while queue:
+    # キューの先頭の要素を取り出す
+    y, x = queue.popleft()
+ 
+    # 取り出した地点から行ける地点について繰り返す
+    for next_y, next_x in [[y+1, x], [y-1, x], [y, x+1], [y, x-1]]:
+        
+        if not (0 <= next_y < R and 0 <= next_x < C):
+            # 条件の範囲外であればスキップ
+            continue
+        
+        elif graph[next_y -1][next_x - 1] == '#':
+            # 探索すべきではないためスキップ
+            continue
+ 
+        elif graph[next_y -1][next_x -1] == ".":
+            now_point = graph[y-1][x-1]
+            # 行ける地点をキューに追加する
+            queue.append([next_y, next_x])
+            # 行ける地点を探索済みにしていく
+            graph[next_y - 1][next_x - 1] = now_point + 1
+print(graph[goal_y-1][goal_x-1])

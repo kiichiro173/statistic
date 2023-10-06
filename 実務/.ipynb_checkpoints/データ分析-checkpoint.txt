@@ -1,0 +1,21 @@
+①それぞれのデータがどのような情報を持っているのか確認する(テーブルデータの確認)
+②nullの確認
+③記述統計量の確認（describe）
+④日付別でその売上を見ていく
+→その後、詳細にitemごとであったり、曜日ごとであったりと深掘りしていく。
+以下の感じで月ごとの売上を確認することができる。
+```
+pivot = pd.pivot_table(uriage, index='purchase_date_month', columns='item_name', values="item_price",aggfunc='sum', fill_value=0)
+for name in pivot:
+    plt.plot(pivot[name], label=name)
+# 凡例の追加
+plt.legend()
+# グラフの表示
+plt.show()
+```
+
+日付の変換
+df["purchase_date_month"] = pd.to_datetime(df["purchase_date"]).dt.strftime('%Y%m')
+
+null の確認
+customer_join.isnull().sum()
